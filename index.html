@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HitTheRoad – AI Road Trip Planner</title>
+    <meta name="description" content="HitTheRoad is your AI-powered road trip planner. Plan a complete personalised itinerary in under a minute." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='75' font-size='80'%3E🛣️%3C/text%3E%3C/svg%3E" />
+    <style>
+      :root {
+        --canvas: #f4f3ef;
+        --card: #ffffff;
+        --foreground: #264653;
+        --muted: #3a5f6d;
+        --border: #e5e7eb;
+        --secondary: #2a9d8f;
+        --accent: #e9c46a;
+        --highlight: #f4a261;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --canvas: #0b1116;
+          --card: #1a232b;
+          --foreground: #f1f5f9;
+          --muted: #b3c0cc;
+          --border: #2a3642;
+        }
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+        background: var(--canvas);
+        color: var(--foreground);
+        line-height: 1.6;
+      }
+      .container { max-width: 720px; margin: 0 auto; padding: 64px 24px; }
+      header { text-align: center; margin-bottom: 48px; }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 88px;
+        height: 88px;
+        border-radius: 20px;
+        background: linear-gradient(135deg, var(--secondary), var(--accent));
+        font-size: 44px;
+        margin-bottom: 24px;
+      }
+      h1 { font-size: 40px; margin: 0 0 8px; letter-spacing: -0.02em; }
+      .subtitle { color: var(--muted); font-size: 18px; margin: 0; }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 28px;
+        margin-bottom: 16px;
+      }
+      h2 { font-size: 22px; margin: 0 0 12px; letter-spacing: -0.01em; }
+      p { margin: 0 0 12px; color: var(--muted); }
+      p:last-child { margin-bottom: 0; }
+      a { color: var(--secondary); text-decoration: none; font-weight: 500; }
+      a:hover { text-decoration: underline; }
+      .pill {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: rgba(42, 157, 143, 0.12);
+        color: var(--secondary);
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 8px;
+      }
+      footer {
+        text-align: center;
+        color: var(--muted);
+        font-size: 13px;
+        margin-top: 48px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+      }
+      footer a { margin: 0 8px; }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <div class="logo">🛣️</div>
+        <h1>HitTheRoad</h1>
+        <p class="subtitle">Your AI road trip planner</p>
+        <span class="pill">iOS · Free with optional credits</span>
+      </header>
+
+      <section class="card">
+        <h2>About</h2>
+        <p>HitTheRoad is an AI-powered road trip planner. Tell us where you're starting, where you're going, and what you love — we build a complete, personalised itinerary in under a minute, with optimised routes, hidden gems, day-by-day breakdowns, and estimated fuel costs.</p>
+        <p>Each trip generation uses one credit. New accounts start with a few free credits and additional credits can be purchased in-app (non-renewing, no subscription).</p>
+      </section>
+
+      <section class="card">
+        <h2>Support</h2>
+        <p>Have a question, found a bug, or want to suggest a feature? Email us and we'll get back to you as fast as we can.</p>
+        <p><strong>Email:</strong> <a href="mailto:mucahitgurbuzcompany@gmail.com">mucahitgurbuzcompany@gmail.com</a></p>
+        <p>When reporting an issue, please include your device model, iOS version, and the in-app screen where the problem happened. Screenshots help.</p>
+      </section>
+
+      <section class="card">
+        <h2>Account &amp; data</h2>
+        <p>You can delete your account and all associated data directly from within the app: <strong>Profile → Account → Delete Account</strong>. Deletion is immediate and permanent.</p>
+      </section>
+
+      <footer>
+        <a href="./privacy.html">Privacy Policy</a>
+        ·
+        <a href="./terms.html">Terms of Service</a>
+        <br /><br />
+        © 2026 Mücahit Gürbüz
+      </footer>
+    </main>
+  </body>
+</html>
