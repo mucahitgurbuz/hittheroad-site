@@ -69,6 +69,15 @@
         font-weight: 600;
         margin-top: 8px;
       }
+      .stores {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        margin-top: 24px;
+      }
+      .stores a { display: inline-flex; }
+      .stores img { height: 50px; width: auto; display: block; }
       footer {
         text-align: center;
         color: var(--muted);
@@ -86,7 +95,15 @@
         <img class="logo" src="./logo.png" alt="HitTheRoad logo" width="96" height="96" />
         <h1>HitTheRoad</h1>
         <p class="subtitle">Your AI road trip planner</p>
-        <span class="pill">iOS · Free with optional credits</span>
+        <span class="pill">iOS &amp; Android · Free with optional credits</span>
+        <div class="stores">
+          <a href="https://apps.apple.com/us/app/hittheroad-ai-trip-planner/id6759530743" aria-label="Download HitTheRoad on the App Store">
+            <img src="./app-store-badge.svg" alt="Download on the App Store" height="50" />
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.mucahitgurbuz.hittheroad" aria-label="Get HitTheRoad on Google Play">
+            <img src="./google-play-badge.svg" alt="Get it on Google Play" height="50" />
+          </a>
+        </div>
       </header>
 
       <section class="card">
