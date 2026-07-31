@@ -73,7 +73,7 @@
     <main class="container">
       <a class="back" href="./index.html">← Back to HitTheRoad</a>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: 15 May 2026</p>
+      <p class="updated">Last updated: 31 July 2026</p>
 
       <section class="card">
         <h2>Overview</h2>
@@ -84,14 +84,21 @@
           <li><strong>Account data:</strong> email address and a unique user ID, used to authenticate you and associate your trips with your account.</li>
           <li><strong>Profile data (optional):</strong> name and profile photo if you choose to add them.</li>
           <li><strong>Trip data:</strong> the trips you generate (start and end points, dates, preferences, generated routes and stops). Stored so you can revisit them.</li>
-          <li><strong>Purchase data:</strong> records of in-app credit purchases (product, transaction id, timestamp), used to grant credits to your account.</li>
+          <li><strong>Travel taste profile:</strong> if you use the optional swipe sessions, your answers are condensed into a preference profile used only to personalise your itineraries.</li>
+          <li><strong>Home base (optional):</strong> an approximate, city-level home location you set to receive weekend route suggestions — never your exact address.</li>
+          <li><strong>Check-in photos (optional):</strong> photos you attach to trip check-ins, shown in your roadbook and on recap images you choose to generate.</li>
+          <li><strong>Travel documents (optional, Pro):</strong> booking confirmations you attach to a trip so the AI assistant can read them and answer questions about them.</li>
+          <li><strong>Purchase data:</strong> records of in-app credit purchases and Pro subscription status (product, transaction id, timestamp), used to grant credits and unlock Pro features.</li>
+          <li><strong>Product analytics:</strong> in-app events (e.g. a screen opened, a trip generated) tied to your account, plus a random device identifier created before sign-in to measure the sign-up funnel. Not an advertising identifier, never shared with ad networks.</li>
+          <li><strong>Push notification token:</strong> only if you enable notifications, used solely to deliver them.</li>
+          <li><strong>Guest accounts:</strong> you can try the app (and the web trip generator) without registering — we then create an anonymous account with no email. It becomes part of your account if you sign up, and is treated as abandoned if you don't.</li>
           <li><strong>Diagnostic data:</strong> anonymous crash reports and error logs via Sentry to help us fix bugs. No personal content is included.</li>
         </ul>
 
         <h2>What we do NOT collect</h2>
         <ul>
-          <li>We do not collect or store your real-time location.</li>
-          <li>We do not collect contacts, photos, microphone, or camera content beyond a profile picture you explicitly upload.</li>
+          <li>We do not track your location in the background. Your device location is used only when you tap the locate button, to pre-fill a starting point or set your home base.</li>
+          <li>We do not collect contacts, microphone, or camera content beyond the profile picture and check-in photos you explicitly choose to upload.</li>
           <li>We do not run advertising trackers or share data with advertisers.</li>
           <li>We do not sell your data, ever.</li>
         </ul>
@@ -101,8 +108,14 @@
           <li>To authenticate you and keep your trips associated with your account.</li>
           <li>To generate trip plans using AI providers (see below). Your prompt is sent to the AI provider only to produce that trip and is not retained for training by us.</li>
           <li>To process in-app purchases and grant the corresponding credits.</li>
+          <li>To personalise your itineraries with the preferences and taste profile you build.</li>
+          <li>To send push notifications you have enabled — each category can be turned off in the app.</li>
+          <li>To send occasional product update emails to registered users; every email has an unsubscribe link.</li>
           <li>To diagnose and fix crashes and errors.</li>
         </ul>
+
+        <h2>Sharing and public trips</h2>
+        <p>If you share a trip link, anyone with the link can view that trip's itinerary on our website. If you publish a trip to the community, it appears on our public pages with the route shown at city-level precision. You can stop sharing at any time in the app. Trip companions you invite can view the trip and contribute reactions and stop proposals.</p>
 
         <h2>Service providers</h2>
         <ul>
@@ -112,6 +125,9 @@
           <li><strong>RevenueCat</strong> (in-app purchase management)</li>
           <li><strong>Apple</strong> (payments, Sign in with Apple)</li>
           <li><strong>Google</strong> (Sign in with Google)</li>
+          <li><strong>Expo</strong> (push notification delivery)</li>
+          <li><strong>Resend</strong> (email delivery)</li>
+          <li><strong>Vercel</strong> (hosting of shared-trip pages and the web trip generator)</li>
           <li><strong>Sentry</strong> (error monitoring)</li>
         </ul>
         <p>Each provider processes data under their own privacy policy. We share with them only what's needed for the feature they power.</p>
@@ -124,7 +140,7 @@
         </ul>
 
         <h2>Children</h2>
-        <p>HitTheRoad is not directed at children under 13. We do not knowingly collect data from children under 13. If you believe a child has provided us data, please contact us and we will delete it.</p>
+        <p>HitTheRoad is not directed at children under 16. We do not knowingly collect data from children under 16. If you believe a child has provided us data, please contact us and we will delete it.</p>
 
         <h2>Changes to this policy</h2>
         <p>We may update this policy. Material changes will be announced in the app. The "Last updated" date at the top reflects the most recent change.</p>
