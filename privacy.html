@@ -19,7 +19,7 @@
     <meta name="twitter:description" content="What HitTheRoad collects, what it never collects, what a shared trip page shows, and how to delete your account and all its data from inside the app." />
     <meta name="twitter:image" content="https://gethittheroad.com/og-default.jpg" />
     <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://gethittheroad.com/#organization","name":"HitTheRoad","url":"https://gethittheroad.com/","logo":{"@type":"ImageObject","url":"https://gethittheroad.com/logo.png"},"email":"mucahitgurbuzcompany@gmail.com","founder":{"@type":"Person","name":"Mücahit Gürbüz"},"sameAs":["https://www.youtube.com/@hittheroadapp","https://www.tiktok.com/@hittheroadapp","https://www.instagram.com/hittheroadapp/"]},{"@type":"WebPage","name":"HitTheRoad Privacy Policy","url":"https://gethittheroad.com/privacy","inLanguage":"en","dateModified":"2026-07-31","publisher":{"@id":"https://gethittheroad.com/#organization"},"about":{"@type":"Thing","name":"Privacy policy"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"HitTheRoad","item":"https://gethittheroad.com/"},{"@type":"ListItem","position":2,"name":"Privacy Policy","item":"https://gethittheroad.com/privacy"}]}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://gethittheroad.com/#organization","name":"HitTheRoad","url":"https://gethittheroad.com/","logo":{"@type":"ImageObject","url":"https://gethittheroad.com/logo.png"},"email":"mucahitgurbuzcompany@gmail.com","founder":{"@type":"Person","name":"Mücahit Gürbüz"},"sameAs":["https://www.youtube.com/@hittheroadapp","https://www.tiktok.com/@hittheroadapp","https://www.instagram.com/hittheroadapp/"]},{"@type":"WebPage","name":"HitTheRoad Privacy Policy","url":"https://gethittheroad.com/privacy","inLanguage":"en","dateModified":"2026-10-05","publisher":{"@id":"https://gethittheroad.com/#organization"},"about":{"@type":"Thing","name":"Privacy policy"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"HitTheRoad","item":"https://gethittheroad.com/"},{"@type":"ListItem","position":2,"name":"Privacy Policy","item":"https://gethittheroad.com/privacy"}]}]}
     </script>
     <style>
       :root {
@@ -89,7 +89,7 @@
     <main class="container">
       <a class="back" href="./index.html">← Back to HitTheRoad</a>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: 31 July 2026</p>
+      <p class="updated">Last updated: 5 October 2026</p>
 
       <section class="card">
         <h2>Overview</h2>
@@ -104,6 +104,7 @@
           <li><strong>Home base (optional):</strong> an approximate, city-level home location you set to receive weekend route suggestions — never your exact address.</li>
           <li><strong>Check-in photos (optional):</strong> photos you attach to trip check-ins, shown in your roadbook and on recap images you choose to generate.</li>
           <li><strong>Travel documents (optional, Pro):</strong> booking confirmations you attach to a trip so the AI assistant can read them and answer questions about them.</li>
+          <li><strong>Voice (optional, needs an account):</strong> when you tap the microphone to talk to Kapi, our trip assistant, your voice is streamed to Google's Gemini AI so Kapi can understand you and talk back. Audio is sent only while the voice call is open. We do not store recordings or transcripts of your calls.</li>
           <li><strong>Purchase data:</strong> records of in-app credit purchases and Pro subscription status (product, transaction id, timestamp), used to grant credits and unlock Pro features.</li>
           <li><strong>Product analytics:</strong> in-app events (e.g. a screen opened, a trip generated) tied to your account, plus a random device identifier created before sign-in to measure the sign-up funnel. Not an advertising identifier, never shared with ad networks.</li>
           <li><strong>Push notification token:</strong> only if you enable notifications, used solely to deliver them.</li>
@@ -114,7 +115,7 @@
         <h2>What we do NOT collect</h2>
         <ul>
           <li>We do not track your location in the background. Your device location is used only when you tap the locate button, to pre-fill a starting point or set your home base.</li>
-          <li>We do not collect contacts, microphone, or camera content beyond the profile picture and check-in photos you explicitly choose to upload.</li>
+          <li>We do not collect contacts or camera content beyond the profile picture and check-in photos you explicitly choose to upload. The microphone is used only while you talk to Kapi or dictate text, and we keep no recordings.</li>
           <li>We do not run advertising trackers or share data with advertisers.</li>
           <li>We do not sell your data, ever.</li>
         </ul>
@@ -122,7 +123,7 @@
         <h2>How your data is used</h2>
         <ul>
           <li>To authenticate you and keep your trips associated with your account.</li>
-          <li>To generate trip plans using AI providers (see below). Your prompt is sent to the AI provider only to produce that trip and is not retained for training by us.</li>
+          <li>To generate trip plans and let Kapi, our trip assistant, answer you, using AI providers (see below). Your prompt, typed or spoken, is sent to the AI provider only to answer it and is not retained for training by us.</li>
           <li>To process in-app purchases and grant the corresponding credits.</li>
           <li>To personalise your itineraries with the preferences and taste profile you build.</li>
           <li>To send push notifications you have enabled — each category can be turned off in the app.</li>
@@ -136,7 +137,8 @@
         <h2>Service providers</h2>
         <ul>
           <li><strong>Supabase</strong> (authentication, database, file storage)</li>
-          <li><strong>OpenAI</strong> (AI trip generation)</li>
+          <li><strong>Google Gemini</strong> (AI trip planning and Kapi, including voice conversations)</li>
+          <li><strong>OpenAI</strong> (AI features, including reading travel documents)</li>
           <li><strong>Google Maps Platform</strong> (place data and routing)</li>
           <li><strong>RevenueCat</strong> (in-app purchase management)</li>
           <li><strong>Apple</strong> (payments, Sign in with Apple)</li>
